@@ -1,15 +1,16 @@
-// == Import : npm
 import React from 'react';
 
-// == Import : local
 import './app.scss';
 
-// == Composant
+import Counter from 'src/containers/Counter';
+import Button from 'src/containers/Button';
+
 const App = () => (
-  <div id="app">
-    App React
-  </div>
+  <main id="app">
+    <Counter />
+    <Button name="oui" />
+    <Button name="non" />
+  </main>
 );
 
-// == Export
 export default App;

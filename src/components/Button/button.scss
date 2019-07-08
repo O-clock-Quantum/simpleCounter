@@ -1,0 +1,12 @@
+button {
+  background: #123456;
+  color: white;
+  border: none;
+  margin: 1em;
+  padding: .8em 1.2em;
+  font-size: 1.2em;
+  font-weight: 700;
+  &:hover {
+    background: lighten(#123456, 20%);
+  }
+}
